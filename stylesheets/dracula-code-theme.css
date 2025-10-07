@@ -1,0 +1,42 @@
+/* Dracula color palette */
+:root {
+    --dracula-bg: #282a36;
+    --dracula-fg: #f8f8f2;
+    --dracula-selection: #44475a;
+    --dracula-blue: #6272a4;
+    --dracula-cyan: #8be9fd;
+    --dracula-green: #50fa7b;
+    --dracula-orange: #ffb86c;
+    --dracula-pink: #ff79c6;
+    --dracula-purple: #bd93f9;
+    --dracula-red: #ff5555;
+    --dracula-yellow: #f1fa8c;
+}
+
+/* Apply Dracula theme to code blocks */
+[data-md-color-scheme="slate"] {
+    /* Code block background and text */
+    --md-code-fg-color: var(--dracula-fg);
+    --md-code-bg-color: var(--dracula-bg);
+
+    /* Syntax highlighting colors */
+    --md-code-hl-operator-color: var(--dracula-pink);
+    --md-code-hl-punctuation-color: var(--dracula-fg);
+    --md-code-hl-string-color: var(--dracula-yellow);
+    --md-code-hl-special-color: var(--dracula-purple);
+    --md-code-hl-number-color: var(--dracula-purple);
+    --md-code-hl-keyword-color: var(--dracula-pink);
+    --md-code-hl-name-color: var(--dracula-fg);
+    --md-code-hl-constant-color: var(--dracula-purple);
+    --md-code-hl-function-color: var(--dracula-green);
+    --md-code-hl-comment-color: var(--dracula-blue);
+    --md-code-hl-variable-color: var(--dracula-green);
+    --md-code-hl-generic-color: var(--dracula-blue);
+
+    /* Additional syntax elements */
+    --md-code-hl-entity-color: var(--dracula-green);
+    --md-code-hl-tag-color: var(--dracula-pink);
+    --md-code-hl-namespace-color: var(--dracula-fg);
+    --md-code-hl-builtin-color: var(--dracula-cyan);
+    --md-code-hl-class-color: var(--dracula-orange);
+}
